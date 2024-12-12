@@ -1,0 +1,127 @@
+﻿@page
+@model BookingRoom.Pages.BookingRoomUser.BlogModel
+@{
+    ViewData["Title"] = "FPT University Blog";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/css/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5 p-0" style="background-image: url('@Url.Content("https://university.fpt.edu.vn/hcm/wp-content/uploads/2024/06/dai-hoc-fpt-tp-hcm-2.jpg")');">
+    <div class="container-fluid page-header-inner py-5">
+        <div class="container text-center pb-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">FPT University Blog</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center text-uppercase">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Blog</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Blog Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">Insights</h6>
+            <h1 class="mb-5">Discover <span class="text-primary text-uppercase">Technology & Innovation</span></h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="blog-item rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoJeu-hwMcGxacT7fIapUKiyCJDOvGOnUW0w&s" alt="AI Research Blog">
+                        <div class="blog-date">
+                            <h5 class="text-white mb-0">15</h5>
+                            <p class="text-white mb-0">Jan</p>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <div class="d-flex mb-3">
+                            <small class="me-3"><i class="far fa-user text-primary"></i> AI Research Team</small>
+                            <small><i class="far fa-comments text-primary"></i> 12 Comments</small>
+                        </div>
+                        <h5 class="mb-3">Latest Breakthroughs in AI</h5>
+                        <p>Exploring cutting-edge artificial intelligence research at FPT University.</p>
+                        <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="blog-item rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlYoyspMycpI3YcS3KqbFHOzreP_BdcWj_g&s" alt="Startup Innovation">
+                        <div class="blog-date">
+                            <h5 class="text-white mb-0">20</h5>
+                            <p class="text-white mb-0">Feb</p>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <div class="d-flex mb-3">
+                            <small class="me-3"><i class="far fa-user text-primary"></i> Innovation Hub</small>
+                            <small><i class="far fa-comments text-primary"></i> 8 Comments</small>
+                        </div>
+                        <h5 class="mb-3">Student Startup Ecosystem</h5>
+                        <p>How FPT nurtures entrepreneurial spirit and technological innovation.</p>
+                        <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="blog-item rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfOcYP2JM5nfHtZJai-LkaFynJpfx57yn2iA&s" alt="Tech Education">
+                        <div class="blog-date">
+                            <h5 class="text-white mb-0">10</h5>
+                            <p class="text-white mb-0">Mar</p>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <div class="d-flex mb-3">
+                            <small class="me-3"><i class="far fa-user text-primary"></i> Academic Team</small>
+                            <small><i class="far fa-comments text-primary"></i> 15 Comments</small>
+                        </div>
+                        <h5 class="mb-3">Future of Tech Education</h5>
+                        <p>Transforming learning through innovative technological approaches.</p>
+                        <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.7s">
+                <a href="#" class="btn btn-primary text-uppercase py-2 px-4">View All Posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/wow.min.js"></script>
+<script src="~/js/main.js"></script>
+
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

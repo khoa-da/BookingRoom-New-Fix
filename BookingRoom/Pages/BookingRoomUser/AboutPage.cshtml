@@ -1,0 +1,172 @@
+﻿@page
+@model BookingRoom.Pages.BookingRoomUser.AboutPageModel
+@{
+    ViewData["Title"] = "About FPT University";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/css/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5 p-0" style="background-image: url('@Url.Content("https://university.fpt.edu.vn/hcm/wp-content/uploads/2024/06/dai-hoc-fpt-tp-hcm-2.jpg")');">
+    <div class="container-fluid page-header-inner py-5">
+        <div class="container text-center pb-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">FPT University Hoa Lac</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center text-uppercase">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZvTZWKCNiWYcMNGQj-wbBYymjelsYVyAng&s" style="margin-top: 25%;">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCrD77qMc5KSPXDt4eNBve1ckoWySo0VUbZA&s">
+                    </div>
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="https://360view.vn/data2/projects/vietnam/2021/fptu-hcmc/images/thumb.jpg">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="https://fptcity.vn/wp-content/uploads/z2111894361184_cab20108c6e8264d6c6c263a5c032f26.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="section-title text-start text-primary text-uppercase">About FPT University</h6>
+                <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">FPT University Hoa Lac</span></h1>
+                <p class="mb-4">FPT University in Hoa Lac is a cutting-edge educational institution dedicated to innovation, technology, and comprehensive student development. Located in the heart of the Hoa Lac Hi-Tech Park, our campus represents the future of higher education in Vietnam.</p>
+                <div class="row g-4 mb-4">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <span>Modern Infrastructure</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <span>Industry-Driven Curriculum</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <span>International Partnerships</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <span>Innovation Hub</span>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="#">Explore Programs</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">Our Leadership</h6>
+            <h1 class="mb-5">Meet the <span class="text-primary text-uppercase">FPT University Leaders</span></h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpDGg72IKpHc3LcKaGNgeQbOl6JMEvl3crPw&s" alt="University Leader">
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Dr. Truong Gia Binh</h5>
+                        <small>Chairman of FPT University</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEFKdpFPxPvGomWWfExA9FiT8Zj8cCWxq9g&s" alt="University Leader">
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Prof. Le Chanh Nghia</h5>
+                        <small>Rector of FPT University</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="https://caodang.fpt.edu.vn/wp-content/uploads/Nguyen-Khac-Thanh.jpg" alt="University Leader">
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Dr. Nguyen Khac Huy</h5>
+                        <small>Vice Rector</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="rounded shadow overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="https://ict-imgs.vgcloud.vn/2022/06/26/17/ong-vu-minh-tri-lam-tong-giam-doc-avg.jpg" alt="University Leader">
+                    </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Dr. Vu Minh Tri</h5>
+                        <small>Academic Director</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/js/wow.min.js"></script>
+<script src="~/js/main.js"></script>
+
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
